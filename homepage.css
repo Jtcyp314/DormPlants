@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#loadDiv{
+  display: none;
+  text-align: center;
+}
+
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: 0px auto;
+    left: 0px;
+    right: 0px;
+    display: block;
+    transition top 0.3s;
+    background-color: #F5F5F5;
+}
+
+div.navbar>a{
+    float: right;
+    display: block;
+    color: #000;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 17px 56px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 3px solid transparent;
+}
+
+#img_logo
+{
+    height: 50%;
+    width: 50%;
+}
+
+/*
+.logo{
+    display: block;
+    vertical-align: top;
+    float: left;
+    width: 240px;
+    height: auto;
+    margin-right: 20px;
+    border-bottom: 3px solid transparent;
+}
+*/
+div.navbar>a:hover {
+    border-bottom: 3px solid #79B791;
+}
+
+footer
+{
+    background: #00ccff;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    height:7em;
+
+}
+
+
+div#logo
+{
+    color:white;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    padding: 10px;
+}
+
+ul#footer_link_list>li
+{
+    
+}
+ul#footer_link_list>li>a
+{
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    justify-content:left;
+
+}
+div#logo
+{
+    float:left;
+    padding 10px;
+    
+}
+
+div#logo
+{
+    border-width: 2px;
+    border-left-color: #000000;
+}
+ul#footer_link_list
+{
+    list-style-type:none;
+}
+
+#vl {
+  border-right: 2px solid black;
+  height: 700px;
+}
+
+.fa {
+    padding: 20px;
+    text-align: center;
+    height:15px;
+    width: 15px;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    float:right;
+    margin-right: 2em;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
