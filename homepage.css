@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+body{
+    background-image: url("plant14.jpg");
+    background-size: cover;
+}
+
+h2{
+   padding-top: 45px; 
+    padding-left: 65px;
+    font-family: Arial;
+    font-size: 40px;
+    letter-spacing: 3px;
+    line-height: 70px;
+    font-weight: 300;
+    color: #37323E;
+}
 .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;
@@ -20,7 +35,7 @@
 
 #loadDiv{
   display: none;
-  text-align: center;
+  
 }
 
 .navbar{
@@ -39,7 +54,9 @@
 div.navbar>a{
     float: right;
     display: block;
-    color: #000;
+    color: #37323E;
+    font-family: "Lucida Console";
+    margin-top: 15px;
     text-align: center;
     letter-spacing: 3px;
     padding: 17px 56px;
@@ -54,104 +71,120 @@ div.navbar>a{
     width: 50%;
 }
 
-/*
-.logo{
-    display: block;
-    vertical-align: top;
-    float: left;
-    width: 240px;
-    height: auto;
-    margin-right: 20px;
-    border-bottom: 3px solid transparent;
-}
-*/
+
 div.navbar>a:hover {
     border-bottom: 3px solid #79B791;
 }
 
+.container{
+    position: relative;
+    display: inline-block;
+}
+
+.container .text{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+
 footer
 {
-    background: #00ccff;
+    background: #DBD5E0;
     position:fixed;
     bottom:0;
     left:0;
     right:0;
     height:7em;
+    
 
 }
 
 
 div#logo
 {
-    color:white;
+    color: #FFF;
     padding: 1em;
-    margin: 1em;
     text-align: center;
-    padding: 10px;
+/*
+    border-style: solid;
+    border-width: 2px;
+    border-right-style: solid;
+    border-right-color: #95A3A4;
+*/
 }
 
-ul#footer_link_list>li
-{
-    
-}
+
 ul#footer_link_list>li>a
 {
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
-    justify-content:left;
-
-}
-div#logo
-{
-    float:left;
-    padding 10px;
+    color: #465C69;
+    justify-content:center;
+    line-height: 1.5em;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding-left: 10px;
     
 }
 
-div#logo
+div#logo /*why are there 3(ok now 2) logo div*/
 {
-    border-width: 2px;
-    border-left-color: #000000;
+    float:left;
 }
+
+
 ul#footer_link_list
 {
     list-style-type:none;
+    font-family: Arial, Helvetica;
 }
 
+
+
+/*
 #vl {
-  border-right: 2px solid black;
+  border-right: 2px solid #000;
   height: 700px;
 }
+*/
 
+#social_media{
+    font-size:25px;
+}
 .fa {
     padding: 20px;
+    width: 22px;
+    height: auto;
     text-align: center;
-    height:15px;
-    width: 15px;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 20px 2px;
     border-radius: 50%;
+    border: 1px solid #000;
     float:right;
-    margin-right: 2em;
+    margin-right: 1.5em;
+    color:#37323E;;
 }
 
 .fa:hover {
     opacity: 0.7;
 }
 
+/*
 .fa-facebook {
     background: #3B5998;
-    color: white;
+    color: #fff;
+
 }
 
 .fa-pinterest {
     background: #cb2027;
-    color: white;
+    color: #fff;
 }
 
 .fa-instagram {
-    background: #125688;
-    color: white;
+    background: #DD2A7B;
+    color: #fff;
 }
+*/
 
