@@ -1,0 +1,154 @@
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#loadDiv{
+  display: none;
+  
+}
+
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: 0px auto;
+    left: 0px;
+    right: 0px;
+    display: block;
+    transition top 0.3s;
+    background-color: #F5F5F5;
+}
+
+div.navbar>a{
+    float: right;
+    display: block;
+    color: #37323E;
+    font-family: "Lucida Console";
+    margin-top: 15px;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 17px 56px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 3px solid transparent;
+}
+
+#img_logo
+{
+    height: 50%;
+    width: 50%;
+}
+
+
+div.navbar>a:hover {
+    border-bottom: 3px solid #79B791;
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+}
+
+.container .text{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+
+footer
+{
+    background: #DBD5E0;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    height:7em;
+    
+
+}
+
+
+div#logo
+{
+    color: #FFF;
+    padding: 1em;
+    text-align: center;
+/*
+    border-style: solid;
+    border-width: 2px;
+    border-right-style: solid;
+    border-right-color: #95A3A4;
+*/
+}
+
+
+ul#footer_link_list>li>a
+{
+    text-align: center;
+    text-decoration: none;
+    color: #465C69;
+    justify-content:center;
+    line-height: 1.5em;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    
+}
+
+div#logo /*why are there 3(ok now 2) logo div*/
+{
+    float:left;
+}
+
+
+ul#footer_link_list
+{
+    list-style-type:none;
+    font-family: Arial, Helvetica;
+}
+
+
+
+/*
+#vl {
+  border-right: 2px solid #000;
+  height: 700px;
+}
+*/
+
+#social_media{
+    font-size:25px;
+}
+.fa {
+    padding: 20px;
+    width: 22px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 2px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    float:right;
+    margin-right: 1.5em;
+    color:#37323E;;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
