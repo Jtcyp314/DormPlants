@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
+
+html
+{
+    position: relative;
+    height: 100%;
+}
 body{
+    position: relative;
+    height: 100%;
     background-image: url("plant14.jpg");
     background-size: cover;
 }
@@ -37,7 +45,6 @@ h2{
   display: none;
   
 }
-
 
 .navbar{
     overflow: hidden;
@@ -88,17 +95,6 @@ div.navbar>a:hover {
     right: 50%;
 }
 
-footer
-{
-    background: #DBD5E0;
-    bottom:0;
-    left:0;
-    right:0;
-    position:fixed;
-    height:7em;
-    
-
-}
 
 
 div#logo
@@ -189,3 +185,12 @@ ul#footer_link_list
 }
 */
 
+footer
+{
+    position:absolute;
+    bottom:0;
+    background: #DBD5E0;
+    left:0;
+    right:0;
+    height:7em;
+}
