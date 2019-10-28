@@ -62,7 +62,7 @@ p{
     background-color: #F5F5F5;
 }
 
-div.navbar>a{
+div.navbar>a.nav_bar_item{
     float: right;
     display: block;
     color: #37323E;
