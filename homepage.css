@@ -91,6 +91,7 @@ footer
 {
     background: #DBD5E0;
     bottom:0;
+    position: fixed;
     left:0;
     right:0;
     height:7em;
