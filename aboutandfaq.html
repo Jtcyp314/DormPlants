@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>About</title>
+<link rel="stylesheet" href="aboutandfaq.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+     
+        <body onload="timeFunction()" style="margin-top: 100px;"></body>
+        <div style="display:none;" id="loadDiv" class="animate-bottom">
+    
+        <div class = "navbar">
+            <img id = #img_logo style = "height: 10%; width: 10%; float: left; margin-left: 5em;" src = "dormplant.png">
+            <a href=#contact>CONTACT</a>
+            <a href=#care>CARE</a>
+            <a href=#shop>SHOP</a>
+            <a href=#about>ABOUT</a>
+        <div>
+            </div></div></div>
+    
+        <footer>
+
+            <div id = "social_media">
+                <a href="#" class="fa fa-pinterest"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                
+            </div>
+            <div id = "logo">
+            <img id = #img_logo style = "height: 30%; width: 30%; float: left; margin-left: 5em;" src = "dormplant.png">
+            </div>
+            
+            
+            <div id = links>
+                <ul id = footer_link_list>
+                    <li class = "footer_link">
+                        <a href = "">About</a>
+                    </li>
+                    
+                    <li class = "footer_link">
+                        <a href = "">Shop</a>
+                    </li>
+                    <li class = "footer_link">
+                        <a href = "">Care</a>
+                    </li>
+                      
+                    <li class = "footer_link">
+                        <a href = "">Contact</a>
+                    </li>
+                </ul>
+            </div>
+           
+
+        </footer>
+            
+        <!--BODY OF EACH PAGE GOES HERE----------------------------------------->
+        
+        <h2>About Us</h2>
+        <p>Dorm Plant is a subscription service designed for the lifestyle and budget of college students. We offer easy to take care of plants that bring a refreshing pop of color to a room. Our mission is to create a simple way for people to incorporate plants into their daily life because plants make our lives happier and our minds healthier. </p>
+        
+        <h2>Frequently Asked Questions</h2>
+         <button class="accordion">How do the subscription boxes work?</button>
+        <div class ="section">
+            To sign up for a plant subscription, please indicate the type of plant you would like (Succulent/Cacti or Ivy/Spider Plant) as well as the frequency (bi-weekly, monthly, bi-monthly). Based on your purchase date, we will ship you a random plant  with customized care instructions. 
+        </div>
+        
+        <button class="accordion">What if I need to change or cancel my subscription?</button>
+        <div class ="section">
+            Any changes to your subscription plan should be made before your plan renews. Otherwise, your plan will stay the same and you will be charged until the following month.
+        </div>
+        
+        <button class="accordion">When will I receive my subscription box?</button>
+        <div class ="section">
+           Allow 5-10 business days from your purchase date to receive your delivery. Your subscription will renew automatically on your purchase date, and your next box will ship out. 
+        </div>
+        
+        <button class="accordion">What if my plant arrives damaged or dead?</button>
+        <div class ="section">
+            Oh no! If an item arrives damaged or is missing from your box, send an email to Dorm Plant Customer Support (help@DormPlant.com) within 7 days of delivery and we will ship you a replacement item at no cost to you.
+        </div>
+        
+        <button class="accordion">What is the return policy?</button>
+        <div class ="section">
+             Due to the nature of our products, we can only issue refunds and accept returns in the unfortunate event that your delivery arrives damaged.
+        </div>
+<!--
+        
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+-->
+        <script language="javascript" type="text/javascript">
+            var faq = document.getElementsByClassName("accordion");
+            
+            for (i = 0; i < faq.length; i++){
+                faq[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var section = this.nextElementSibling;
+                    if (section.style.display === "block") {
+                        section.style.display = "none";
+                    } else {
+                        section.style.display = "block";
+                    }
+                });
+            }
+        </script>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    <!--BODY OF EACH PAGE ENDS HERE-------------------------------------------> 
+    <script language="javascript" type="text/javascript">
+        var time;
+
+        function timeFunction() {
+            time = setTimeout(showPage,100);
+        }
+
+        function showPage() {
+            document.getElementById("loadDiv").style.display = "block";
+        }
+    </script>
+    </body>
+    </html>
