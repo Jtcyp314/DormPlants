@@ -72,7 +72,7 @@ div.navbar>a.nav_bar_item{
 }
 
 
-.nav_bar_item a:hover {
+div.navbar>a:hover {
     border-bottom: 3px solid #79B791;
 }
 
