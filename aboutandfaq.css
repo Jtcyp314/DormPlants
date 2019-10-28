@@ -100,14 +100,11 @@ div.navbar>a:hover {
 
 footer
 {
-    background: #DBD5E0;
-    position:fixed;
+    position:absolute;
     bottom:0;
+    background: #DBD5E0;
     left:0;
     right:0;
-    height:7em;
-    
-
 }
 
 
