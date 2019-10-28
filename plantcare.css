@@ -1,0 +1,39 @@
+.pageTitle {
+    text-align: center;
+    font-family: Arial;
+    font-weight: 600;
+    padding-top: 15px;
+    color: #37323E;
+}
+
+.pageBody {
+    margin:0px;
+    position:absolute;
+}
+
+.pageTitle h1 {
+    letter-spacing: 2px;
+}
+
+.pageTitle p {
+    letter-spacing: 1px;
+}
+
+.iconContainer { 
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.iconContainer img {
+    max-width:100%;
+    height:auto;
+}
+#icon1 {
+    float:left;
+    margin-left:15%;
+}
+#icon2 {
+    float:right;
+    margin-right:15%;
+}

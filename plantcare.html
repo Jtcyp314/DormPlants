@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dorm Plant</title>
+<link rel="stylesheet" href="homepage.css">
+<link rel="stylesheet" href="plantcare.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="jquery.js"></script>
+</head>
+    <body>
+     
+        <body onload="timeFunction()" style="margin-top: 100px;"></body>
+        <div style="display:none;" id="loadDiv" class="animate-bottom">
+        <div class = "navbar">
+            <a href = "DormPlants.html">
+                <img id = #img_logo style = "height: 10%; width: 10%; float: left; margin-left: 5em;" src = "dormplant.png">
+            </a>
+            <a href="contact.html" class = "nav_bar_item">CONTACT</a>
+            <a href=#care class = "nav_bar_item">CARE</a>
+            <a href=#shop class = "nav_bar_item">SHOP</a>
+            <a href=#about class = "nav_bar_item">ABOUT</a>
+        <div>
+            </div></div></div>
+    
+<!--BODY OF EACH PAGE GOES HERE----------------------------------------->
+<div class="pageBody">
+
+    <div class="pageTitle">
+        <h1>Plant Care</h1>
+        <p>Taking proper care of your plants can seem complicated and overwhelming, but have no fear. </p>
+        <p>Our simple guide will help you get started and let your plants grow and thrive! </p>
+    </div>
+
+    <div class="iconContainer" id="icon1">
+        <a href=""><img id="img1" src="cacti_and_succulents_copy.jpg"></a>
+    </div>
+
+    <div class="iconContainer" id="icon2">
+        <a href=""><img id= "img2" src="spider_ivy_copy.jpg"></a>
+    </div>
+
+    <script language="javascript">
+        $("#img1").hover(function () {
+            $("#img1").attr("src", "cacti_and_succulents.jpg");
+        });
+        $("#img2").hover(function () {
+            $("#img2").attr("src", "spider_ivy.jpg");
+        });
+        $("#img1").mouseleave(function () {
+            $("#img1").attr("src", "cacti_and_succulents_copy.jpg");
+        });
+        $("#img2").mouseleave(function () {
+            $("#img2").attr("src", "spider_ivy_copy.jpg");
+        });
+
+    </script>
+
+</div>
+            
+<!--BODY OF EACH PAGE ENDS HERE-------------------------------------------> 
+
+        <footer>
+<!--
+            <div id = "copyright">
+                <p class="copyright">© Tufts University COMP20</p>
+-->
+            </div>
+            <div id = "social_media">
+                <a href="#" class="fa fa-pinterest"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                
+            </div>
+            <div id = "logo">
+            <img id = #img_logo style = "height: 30%; width: 30%; float: left; margin-left: 5em;" src = "dormplant.png">
+<!--            <div id = "vl"></div> -->
+            </div>
+            
+            
+            <div id = links>
+                <ul id = footer_link_list>
+                    <li class = "footer_link">
+                        <a href = "">About</a>
+                    </li>
+                    
+                    <li class = "footer_link">
+                        <a href = "">Shop</a>
+                    </li>
+                    <li class = "footer_link">
+                        <a href = "">Care</a>
+                    </li>
+                      
+                    <li class = "footer_link">
+                        <a href = "contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+           
+
+        </footer>
+            
+    <script language="javascript" type="text/javascript">
+        var time;
+        function timeFunction() {
+            time = setTimeout(showPage,100);
+        }
+        function showPage() {
+            document.getElementById("loadDiv").style.display = "block";
+        }
+    </script>
+    </body>
+    </html>
