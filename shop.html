@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dorm Plant</title>
+<link rel="stylesheet" href="homepage.css">
+<link rel="stylesheet" href="shop.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        
+        <!-- NAV BAR -->
+        <body onload="timeFunction()" style="margin-top: 100px;"></body>
+        <div style="display:none;" id="loadDiv" class="animate-bottom">
+            
+        <div class = "navbar">
+            <a href = "DormPlants.html">
+                <img id = #img_logo style = "height: 10%; width: 10%; float: left; margin-left: 5em;" src = "dormplant.png">
+            </a>
+            <a href="contact.html" class = "nav_bar_item">CONTACT</a>
+            <a href=#care class = "nav_bar_item">CARE</a>
+            <a href=#shop class = "nav_bar_item">SHOP</a>
+            <a href=#about class = "nav_bar_item">ABOUT</a>
+        <div>
+            </div></div></div>
+
+        <!--BODY OF EACH PAGE GOES HERE----------------------------------------->
+        
+        <div class="parallax" id="img1">
+                <div class="pageTitle">
+                    <h1>SHOP</h1>
+                    <h3>check out our subscription plans here</h3>
+                </div>
+        </div>
+       
+        <div class="subscription">
+                <h1>the bi-weekly plan</h1>
+                <h3>for the plant fanatic</h3>
+                <br>
+                <a href="#form">two plants every month / $20 monthly</a>
+        </div>
+        
+        <div class="parallax" id="img2"></div>
+        
+        <div class="subscription">
+                <h1>the monthly plan</h1>
+                <h3>for the plant connoisseur</h3>
+                <br>
+                <a href="#form">one plant every month / $12 monthly</a>
+        </div>
+
+        <div class="parallax" id="img3"></div>
+
+        <div class="subscription">
+                <h1>the bi-monthly plan</h1>
+                <h3>for the minimalist</h3>
+                <br>
+                <a href="#form">one plant every other month / $12 bi-monthly</a>
+        </div>
+
+        <div class="parallax" id="img4"></div>
+
+        <div id="form" class="subscription">
+            <h1>subscribe to a plan!</h1>
+            <h3>we'll just need to know a few things from you first</h3>
+            <form>
+                <input type='text' placeholder='First Name:'  />
+                <input type='text' placeholder='Last Name:'  />
+                <input type='text' placeholder='Email:'  />
+                <input type='text' placeholder='Phone:'  />
+                <h3>select a plan:</h3>
+                <select>
+                    <option>bi-weekly plan ($20 / mo)</option>
+                    <option>monthly plan ($12 / mo)</option>
+                    <option>bi-monthly plan ($12 / two mo)</option>
+                </select>
+                <br>
+                <input type='submit' placeholder='Subscribe' onclick='notify()'/>
+            </form>
+        </div>
+
+        <div class="parallax" id="img5"></div>    
+        
+        <script language="javascript">
+            function notify() {
+                alert("Thank you for signing up!\nMore information will be coming your way!");
+            }
+        </script>
+            
+        <!--BODY OF EACH PAGE ENDS HERE-------------------------------------------> 
+        
+        <!-- FOOTER -->
+        <footer class="toBottom">
+                <!--
+                    <div id = "copyright">
+                    <p class="copyright">© Tufts University COMP20</p>
+                
+            </div>-->
+            <div id = "social_media">
+                <a href="#" class="fa fa-pinterest"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>           
+            </div>
+
+            <div id = "logo">
+                <img id = #img_logo style = "height: 30%; width: 30%; float: left; margin-left: 5em;" src = "dormplant.png">
+                <!--            <div id = "vl"></div> -->
+            </div>
+                            
+                            
+            <div id = links>
+                <ul id = footer_link_list>
+                    <li class = "footer_link">
+                        <a href = "">About</a>
+                    </li>
+                                    
+                    <li class = "footer_link">
+                        <a href = "">Shop</a>
+                    </li>
+
+                    <li class = "footer_link">
+                        <a href = "">Care</a>
+                    </li>
+                                      
+                    <li class = "footer_link">
+                        <a href = "contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+                           
+                
+        </footer>
+            
+        
+
+    <script language="javascript" type="text/javascript">
+        var time;
+        function timeFunction() {
+            time = setTimeout(showPage,100);
+        }
+        function showPage() {
+            document.getElementById("loadDiv").style.display = "block";
+        }
+    </script>
+    </body>
+    </html>

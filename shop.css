@@ -1,0 +1,135 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+/* images and parallax */
+.parallax {
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.65;
+    padding: 50px;
+}
+
+#img1 {
+    background-image: url("succulents1.jpg");
+}
+
+#img2 {
+    background-image: url("5-indoor-houseplants-you-cant-kill.jpg");
+} 
+
+#img3 {
+    background-image: url("succulents.jpg");
+}
+
+#img4 {
+    background-image: url("spider_plant.jpg");
+}
+
+#img5 {
+    background-image: url("colorful-succulents-hero.jpg");
+}
+
+.pageTitle {
+    background-color: #f5f5f5;
+    color: #000;
+    height: auto;
+    width: 30%;
+    text-align:center;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.pageTitle h1 {
+    letter-spacing:10px;
+}
+
+/* subscription info styling*/
+
+.subscription {
+    background-color:rgb(157, 194, 171);
+    padding:40px;
+    text-align: center;
+    height:auto;
+}
+
+.subscription h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+.subscription h3 {
+    font-size: 18px;
+    color: #f5f5f5;
+    font-family:sans-serif;
+    letter-spacing: 3px;
+}
+
+.subscription a {
+    text-decoration:none;
+    color: #000;
+    font-family:sans-serif;
+    font-size:16px;
+    background-color:rgb(190, 211, 198);
+    width:30%;
+    padding:15px;
+    margin:10px auto;
+}
+
+.subscription a:hover {
+    background-color: #f5f5f5;
+}
+
+/* form styling */
+form {
+    font-family: sans-serif;
+}
+
+[type=text] {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    height: 45px;
+    line-height: 45px;  
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: rgba(0,0,0,.4);
+    padding: 0px 5px;
+  }
+  
+  [type=option] {
+    display:block;
+    margin: 0 auto;
+    font-family:sans-serif;
+    font-size: 1em;
+  }
+
+  [type=submit] {
+    margin-top: 25px;
+    width: 30%;
+    border: 0;
+    background-color: #d5d5d5;
+    border-radius: 5px;
+    height: 50px;
+    color: #000;
+    font-weight: 400;
+    font-size: 1em;
+  }
+  
+  [type='text']:focus {
+    outline: none;
+    border-color: rgb(0, 0, 0);
+    color: #000;
+  }
+
+.toBottom {
+    position:relative;
+}
