@@ -8,30 +8,44 @@
 </head>
     <body>
         <style type="text/css">
-
             body
-            {   
-                position: relative;
-                height: 500px;
-                background-image: url("timj-pQwll5IG-I0-unsplash.jpg");
-                background-size: cover;
-                background-position: 50% 50%;
-            }
-            p
             {
+                position: relative;
+                background-image: url("timj-pQwll5IG-I0-unsplash.jpg");
+                background-repeat: none;
+                background-position: 50% 50%;
+                height: 700px;
+                width: 100%;
+                
+            }
+
+
+
+            footer
+            {
+                position: absolute;
+                left:0;
+                right: 0;
+                bottom: 0;
+            }
+            h1
+            {
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: black;
+                position: absolute;
                 font-family: Helvetica;
             }
 
         </style>
      
-        <body onload="timeFunction()" style="margin-top: 100px;"></body>
+        <body onload="timeFunction()" style=" font-family: Helvetica;"></body>
         <div style="display:none; text-align: center;" id="loadDiv" class="animate-bottom">
         
 
         </div>
 
-        <!--<img src = "timj-pQwll5IG-I0-unsplash.jpg" style = "z-index:1; height: 100%; width:100%; position: absolute;">-->
-        <h1 style = "z-index: 0; font-size: 35px; text-align: center;">Thank you for your submission </br> we'll get back to you within the next 72 hrs</h1>
+
+        <h1 style = "top: 200px; left: 7.9em; font-size: 35px; text-align: center; color:#fff; outline: #000000;">Thank you for your submission </br> we'll get back to you within the next 72 hrs</h1>
 
 
 
